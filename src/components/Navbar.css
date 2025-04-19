@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #e77ce4; /* indigo-700 equivalent */
+    padding: 1rem;
+    color: white;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links a {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-btn {
+     /* red-500 */
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    background-color: #90b9f1;
+    position: fixed;
+    padding: 1rem;
+    color: white;
+    position: fixed;         /* Fix it at the top */
+    top: 0;                  /* Align to top */
+    left: 0;
+    right: 0;
+    z-index: 10;  
+    width: 100%; 
+  }
+  
+  
